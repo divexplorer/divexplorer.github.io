@@ -11,12 +11,12 @@ DivExplorer is available as a python package and as a interactive cloud-based we
 ## DivExplorer web app
 
 DivExplorer is a web app for analyzing datasets and finding subgroups of data where a classifier behaves differently than on the overall data. 
-![teaser figure](X-divexplorer-webapp-teaser.png)
+![teaser figure](https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/divexplorer-webapp-teaser.png)
 
 
 Watch the demonstation video :
 
-<a href="https://youtu.be/CAW4-m12NqI" target="_blank"><img src="demo-screeshot.png" width="450" alt="Demonstration video"/></a>
+<a href="https://youtu.be/CAW4-m12NqI" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
 
 
 DivExplorer is designed and implement by Eliana Pastor, Andrew Gavganian, Elena Baralis, [Luca de Alfaro](https://luca.dealfaro.com)
