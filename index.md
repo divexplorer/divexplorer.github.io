@@ -6,15 +6,16 @@ We propose the notion of divergence over itemsets (i.e., conjunctions of simple 
 We quantify the contribution of different attribute values to divergence with the notion of Shapley values to identify both critical and peculiar behaviors of attributes. 
 See our [paper](#citations) for details and citations.
 
-DivExplorer is available as a python package and as a interactive cloud-based web app.
+DivExplorer is available as a python [package](#DivExplorer-package) and as a interactive cloud-based [web app](#DivExplorer-web-app).
 
 ## DivExplorer web app
 
 DivExplorer is a web app for analyzing datasets and finding subgroups of data where a classifier behaves differently than on the overall data. 
+
 ![teaser figure](https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/divexplorer-webapp-teaser.png)
 
 
-Watch the demonstation video :
+### Watch the demonstration video :
 
 <a href="https://youtu.be/CAW4-m12NqI" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
 
