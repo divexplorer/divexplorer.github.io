@@ -12,19 +12,25 @@ DivExplorer is available as a python [package](#DivExplorer-package) and as a in
 
 DivExplorer is a web app for analyzing datasets and finding subgroups of data where a classifier behaves differently than on the overall data. 
 
-![teaser figure](https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/divexplorer-webapp-teaser.png)
+
+<p align="center">
+  <a href="https://youtu.be/CAW4-m12NqI" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/divexplorer-webapp-teaser.png" width="400" alt="Demonstration video"/></a>
+</p>
 
 
 ### Watch the demonstration video :
 
-<a href="https://youtu.be/CAW4-m12NqI" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
+<p align="center">
+  <a href="https://youtu.be/vaKiuGQ3-Tg" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
+</p>
 
 
-DivExplorer is designed and implement by Eliana Pastor, Andrew Gavganian, Elena Baralis, [Luca de Alfaro](https://luca.dealfaro.com)
+
+DivExplorer is designed by [Eliana Pastor](https://github.com/elianap), [Andrew Gavganian](https://gavgavian.com), [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/), [Luca de Alfaro](https://luca.dealfaro.com)
 
 ## DivExplorer package
 
-DivExplorer is available as a python package at the followin [link](https://github.com/elianap/divexplorer).
+DivExplorer is available as a python package at the following [link](https://github.com/elianap/divexplorer).
 
 
 ## Citations
