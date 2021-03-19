@@ -25,8 +25,10 @@ DivExplorer is a web app for analyzing datasets and finding subgroups of data wh
 </p>
 
 
-You can try it at the following [link](https://divexplorer.appspot.com/). You can use the preprocessed [discretized COMPAS](https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/compas_discretized.csv) dataset as demo dataset.
+You can try DivExplorer [here](https://divexplorer.appspot.com/). You can use the preprocessed [discretized COMPAS](https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/compas_discretized.csv) dataset as demo dataset.
 
+
+Source code and documentation are available at the following [link](https://bitbucket.org/luca_de_alfaro/divexplorer). 
 
 DivExplorer is designed by [Eliana Pastor](https://github.com/elianap), [Andrew Gavganian](https://gavgavian.com), [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/), [Luca de Alfaro](https://luca.dealfaro.com)
 
