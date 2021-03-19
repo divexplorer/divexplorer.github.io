@@ -21,7 +21,7 @@ DivExplorer is a web app for analyzing datasets and finding subgroups of data wh
 ### Watch the demonstration video :
 
 <p align="center">
-  <a href="https://youtu.be/vaKiuGQ3-Tg" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
+  <a href="https://www.youtube.com/watch?v=oBzGuh_COmU" target="_blank"><img src="https://raw.githubusercontent.com/divexplorer/divexplorer.github.io/main/demo-screenshot.png" width="450" alt="Demonstration video"/></a>
 </p>
 
 
