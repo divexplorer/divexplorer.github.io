@@ -30,7 +30,7 @@ You can try DivExplorer [here](https://divexplorer.appspot.com/). You can use th
 
 Source code and documentation are available at the following [link](https://bitbucket.org/luca_de_alfaro/divexplorer). 
 
-DivExplorer is designed by [Eliana Pastor](https://github.com/elianap), [Andrew Gavganian](https://gavgavian.com), [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/), [Luca de Alfaro](https://luca.dealfaro.com)
+DivExplorer is designed by [Eliana Pastor](https://github.com/elianap), [Andrew Gavgavian](https://gavgavian.com), [Elena Baralis](https://dbdmg.polito.it/wordpress/people/elena-baralis/), [Luca de Alfaro](https://luca.dealfaro.com)
 
 
 
