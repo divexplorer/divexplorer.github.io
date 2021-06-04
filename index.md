@@ -1,6 +1,5 @@
 # DivExplorer
 
-
 Machine learning models may perform differently on different data subgroups. 
 We propose the notion of divergence over itemsets (i.e., conjunctions of simple predicates) as a measure of different classification behavior on data subgroups, and the use of frequent pattern mining techniques for their identification. 
 We quantify the contribution of different attribute values to divergence with the notion of Shapley values to identify both critical and peculiar behaviors of attributes. 
