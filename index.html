@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="The DivExplorer Project">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <style>
+        .narrow {
+            width: max-content;
+        }
+    </style>
 </head>
 <body>
     <div class="section">
@@ -14,35 +19,79 @@
             The DivExplorer Project
         </div>
 
-        <div class="block">
+        <div class="block has-text-weight-medium">
         Machine learning models may perform differently on different data subgroups. 
         We propose the notion of divergence over itemsets (i.e., conjunctions of simple predicates) as a measure of different classification behavior on data subgroups, and the use of frequent pattern mining techniques for their identification. 
         We quantify the contribution of different attribute values to divergence with the notion of Shapley values to identify both critical and peculiar behaviors of attributes. 
         </div>
 
-        <div class="subtitle">Videos</div>
+        <div class="subtitle has-text-weight-bold">Videos</div>
 
-        <div class="block columns">
-            <div class="column is-narrow">
-                <div class="box has-text-centered">
-                    <div>
-                        <iframe width="300" src="https://www.youtube.com/embed/C5IUNvgWHhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="has-text-weight-semibold">
+        <div class="columns">
+            <div class="column narrow is-narrow">
+                <div class="box has-text-centered narrow">
+                    <iframe width="300" height="150" src="https://www.youtube.com/embed/C5IUNvgWHhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="has-text-weight-semibold is-narrow">
                         5-minute introduction
                     </div>
                 </div>
             </div>
-            <div class="column is-narrow">
-                <div class="box has-text-centered">
+            <div class="column narrow is-narrow">
+                <div class="box has-text-centered narrow">
                     <div>
-                        <iframe width="300" src="https://www.youtube.com/embed/qNS19pw3I8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="300" height="150" src="https://www.youtube.com/embed/qNS19pw3I8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="has-text-weight-semibold">
                         20-minute in-depth
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="subtitle has-text-weight-bold">Slide Decks</div>
+
+
+
+        <div class="subtitle has-text-weight-bold">Web App and Python Package</div>
+
+        <div class="has-text-weight-medium block">
+            You can use DivExplorer at <a class="has-text-weight-bold" href="https://divexplorer.org/">divexplorer.org</a>. 
+            You can upload your datasets there, and analyze them directly online. 
+            For a quick demo, you can use the pre-processed 
+            <a href="/compas_discretized.csv">discretized COMPAS</a> dataset, derived from the 
+            standard <a href="https://github.com/propublica/compas-analysis">COMPAS dataset</a>.
+        </div>
+        
+        <div class="has-text-weight-medium block">
+            Alternatively, you can analyze your datasets using DivExplorer using the 
+            <a href="https://pypi.org/project/divexplorer/">divexplorer</a>
+            Python package, and you can look at its 
+            <a hfer="https://bitbucket.org/luca_de_alfaro/divexplorer">source code and documentation</a>.
+            <!-- Make new repo on github in divexplorer organization. -->
+        </div>
+
+        <div class="subtitle has-text-weight-bold">Papers</div>
+
+        <div class="mt-3 block">
+            <span class="paper_title has-text-weight-semibold">
+            
+                <a href="papers/21/DivExplorer.pdf" class="has-text-link-dark">Looking for Trouble: Analyzing Classifier Behavior via Pattern Divergence</a>.
+            
+            </span>
+            <span class="authors">E. Pastor, L. de Alfaro, E. Baralis.</span>
+            <span class="paper_details">In <em>Proceedings of the 2021 ACM SIGMOD Conference</em></span><span>, 2021.</span>
+        </div>
+    
+
+        <div class="subtitle has-text-weight-bold">Project Members</div>
+
+        <div class="has-text-weight-medium block">
+        DivExplorer is designed by 
+        <a href="https://github.com/elianap">Eliana Pastor</a>,
+        <a href="https://gavgavian.com/">Andrew Gavganian</a>,
+        <a hfer="https://dbdmg.polito.it/wordpress/people/elena-baralis/">Elena Baralis</a>,
+        and 
+        <a href="https://luca.dealfaro.com">Luca de Alfaro</a>.
         </div>
 
 
