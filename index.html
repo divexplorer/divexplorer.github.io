@@ -21,14 +21,31 @@
 
         <div class="block has-text-weight-medium">
         <p> 
-            As machine learning models and automated-decision making systems become more widespread, there is an increasing need to understand how these systems operate. 
-            Typically, the performance of such systems is evaluated on the entire input datasets. 
-            DivExplorer enables to analyze subgroup performance, efficiently identifying the data subgroups that are treated in anomalous way. 
-            This enables, for instance, the idenfitication of data subgroups for which classifiers have higher false-positive or false-negative rates than the average, or the identification of subgroups that are ranked higher or lower than the average. 
+            DivExplorer enables to analyze subgroup performance in datasets, efficiently identifying the data subgroups that are anomalous.
+        </p>
+        <p class="mt-2">
+            Given a dataset, DivExplorer can find subgroups where specified attributes have higher or lower average value compared to the overall dataset. 
+            As an example, this can be used to find subgroups in a census dataset that have higher than average income. 
+        </p>
+        <p class="mt-2">
+            In machine learning, DivExplorer enables the idenfitication of data subgroups for which classifiers have higher false-positive or false-negative rates than the average, or the identification of subgroups that are ranked higher or lower than the average. 
         </p>
         <p class="mt-2">
             Here, you can find the papers and videos related to the project, as well a Python package you can use to analyze your datasets. 
         </p>
+        </div>
+
+        <div class="block">
+            <div class="subtitle has-text-weight-bold has-text-success-dark">Python Package</div>
+    
+            <div class="has-text-weight-medium mt-3">
+                You can analyze your datasets using the 
+                <a href="https://pypi.org/project/divexplorer/">divexplorer</a>
+                Python package, and you can look at its 
+                <a href="https://github.com/divexplorer/divexplorer.git">source code and documentation</a>.
+                Here is a <a href="https://colab.research.google.com/drive/1lDqqssBusiFHjgR6EciuWNT55hO4_X0o?usp=sharing">Colab notebook</a>
+                that demonstrates how to use the package to analyze the behavior of datasets and classifiers. 
+            </div>
         </div>
 
         <div class="block">
@@ -57,28 +74,16 @@
         </div>
 
         <div class="block">
-            <div class="subtitle has-text-weight-bold has-text-success-dark">Web App and Python Package</div>
-    
-            <div class="has-text-weight-medium">
-                You can use DivExplorer at <a class="has-text-weight-bold" href="https://divexplorer.org/">divexplorer.org</a>. 
-                You can upload your datasets there, and analyze them directly online. 
-                For a quick demo, you can use the pre-processed 
-                <a href="/compas_discretized.csv">discretized COMPAS</a> dataset, derived from the 
-                standard <a href="https://github.com/propublica/compas-analysis">COMPAS dataset</a>.
-            </div>
-            
-            <div class="has-text-weight-medium mt-3">
-                Alternatively, you can analyze your datasets using the 
-                <a href="https://pypi.org/project/divexplorer/">divexplorer</a>
-                Python package, and you can look at its 
-                <a href="https://github.com/elianap/divexplorer.git">source code and documentation</a>.
-                <!-- Make new repo on github in divexplorer organization. -->
-                <!-- Pointers to sample notebook. -->
-            </div>
-        </div>
-
-        <div class="block">
             <div class="subtitle has-text-weight-bold has-text-success-dark">Papers</div>
+
+            <div class="mt-3">
+                <span class="paper_title has-text-weight-semibold">
+                    <a href="staticICASSP23.pdf" class="has-text-link-dark">Exploring Subgroup Performance in End-To-End Speech Models</a>.
+                </span>
+                <span class="authors">A. Kodounas, E. Pastor, G. Attanasio, V. Mazzia, M. Giollo, T. Gueudre, L. Cagliero, L. de Alfaro, E. Baralis, D. Amberti.</span>
+                <span class="paper_details">In <em>Proceedings of the International Conference on Acoustings, Speech, and Signal Processing</em> (ICASSP)</span><span>, 2023.</span>
+                
+            </div>
 
             <div class="mt-3">
                 <span class="paper_title has-text-weight-semibold">
@@ -128,7 +133,6 @@
             <div class="has-text-weight-medium">
             <a hfer="https://dbdmg.polito.it/wordpress/people/elena-baralis/">Elena Baralis</a>,
             <a href="https://luca.dealfaro.com">Luca de Alfaro</a>,
-            <a href="https://gavgavian.com/">Andrew Gavgavian</a>,
             <a href="https://github.com/elianap">Eliana Pastor</a>.
             </div>
         </div>
